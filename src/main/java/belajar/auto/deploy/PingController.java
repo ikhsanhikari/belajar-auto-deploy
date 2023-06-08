@@ -9,5 +9,9 @@ public class PingController {
     public String ping(){
         return "ping";
     }
+    @GetMapping("/pang")
+    public String pang(){
+        return "pong";
+    }
 
 }
